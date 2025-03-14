@@ -1,0 +1,19 @@
+.{
+    .name = "gc",
+    .version = "0.0.0",
+    .dependencies = .{
+        .bdwgc = .{
+            .url = "https://github.com/ivmai/bdwgc/releases/download/v8.2.8/gc-8.2.8.tar.gz",
+            .hash = "1220e168d0104f1e3dfdb7965d36182c109911934e504a8262ee51211a1658e98fe3",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "vendor",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
